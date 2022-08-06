@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-style: bold;
+
+}
+
+p {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(236, 160, 20);
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.generateButton{
+    background-color: orange;
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+.generateButton:hover {
+    background-color: white;
+    color: orange;
+    border: 1px orange solid;
+    border-radius: 5px;
+}
+
